@@ -17,4 +17,7 @@ A collection of HTML email templates to use for marketing campaigns.
 5. **Style_Unlimited**: A Sephora clone template great for use by fashion retailers. Includes social media button placement and sign-off. | [click here to preview](http://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/style_unlimited.html)
 6. **Sale_Offer**: Built using Foundation for Emails. Includes links, social media button placement, callout section to add sale images or offers, and CTA | [click here to preview](http://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/sale_offer.html)
 
+## Clones
+A project folder with HTML email templates I built inspired by existing email designs.
+
 ###### Created by E. Wilson for creative use only. For more information on how you can get customized emails for your next campaign, message me.
