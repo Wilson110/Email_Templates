@@ -19,7 +19,7 @@ All templates use placeholder images and image links. Please make sure that your
 4. **Medical**: A template for introducing medical apps and/or initiatives. Includes 6 app feature callouts, social media button placement, call to action notice, and logo header. | [click here to preview](http://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/medical.html)
 5. **Style_Unlimited**: A Sephora clone template great for use by fashion retailers. Includes social media button placement and sign-off. | [click here to preview](http://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/style_unlimited.html)
 6. **Sale_Offer**: Built using Foundation for Emails. Includes links, social media button placement, callout section to add sale images or offers, and CTA | [click here to preview](http://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/sale_offer.html)
-7. **Responsive_Template-Inline**: A responsive email template built with no media queries. Includes single-column, two-column, and three-column rows, plus header | [click here to preview](http://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/responsive_template-inline.html)
+7. **Responsive_Template-Inline**: A future-proof responsive email template written for mobile ESP apps that do not support media queries. All styles inline. Includes single-column, two-column, and three-column rows, plus header | [click here to preview](http://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/responsive_template-inline.html)
 
 ## Clones
 A project folder with HTML email templates I built inspired by existing email designs.
