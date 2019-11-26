@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -6,173 +6,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--<![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Responsive Email Template</title>
-
-    <style>
-        body {
-            margin: 0 !important;
-            padding: 0;
-            background-color: #ffffff;
-        }
-        table {
-            border-spacing:0;
-            font-family: Arial, Helvetica, sans-serif;
-            color: #333333;
-        }
-        td {
-            padding:0;
-        }
-        img {
-            border:0;
-        }
-        div[style*="margin: 16px 0"] {
-            margin: 0 !important;
-        }
-        .wrapper {
-            width: 100%;
-            table-layout: fixed;
-            -webkit-text-size-adjust: 100%;
-            -ms-text-size-adjust: 100%;
-        }
-        .webkit {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-
-        .outer {
-            margin: 0 auto;
-            width: 100%;
-            max-width: 600px;
-        }
-
-        .full-width-image img {
-            width: 100%;
-            max-width: 600px;
-            height: auto;
-        }
-
-        .inner {
-            padding: 10px;
-        }
-
-        p {
-            margin:0;
-        }
-
-        a {
-            color: #cccccc;
-            text-decoration:none;
-            font-weight:bold;
-        }
-
-        h1 {
-            font-size: 21px;
-            font-weight: bold;
-            margin-bottom: 18px;
-        }
-
-        h2 {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 12px;
-        }
-
-        /* one-column layout */
-        .one-column .contents {
-            text-align:left;
-        }
-
-        .one-column p {
-            font-size: 14px;
-            margin-bottom: 10px;
-        }
-
-        /* two-column layout */
-        .two-column {
-            text-align:center;
-            font-size: 0;
-        }
-
-        .two-column .column {
-            width: 100%;
-            max-width: 300px;
-            display: inline-block;
-            vertical-align: top;
-        }
-
-        .contents {
-            width: 100%;
-        }
-
-        .two-column .contents {
-            font-size:14px;
-            text-align: left;
-        }
-
-        .two-column img {
-            width: 100%;
-            max-width: 280px;
-            height: auto;
-        }
-
-        .two-column .text {
-            padding-top: 10px; 
-        }
-
-        .two-column .button {
-            height: 30px;
-            background-color: #e7e7e7;
-            text-align:center;
-        }
-
-        .two-column .text p {
-            margin-bottom: 10px;
-        }
-
-        /* three column layout */
-        .three-column {
-            text-align:center;
-            font-size: 0;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-
-        .three-column .column {
-            width: 100%;
-            max-width: 200px;
-            display: inline-block;
-            vertical-align: top;
-        }
-
-        .three-column .contents {
-            font-size: 14px;
-            text-align: center;
-        }
-
-        .three-column img {
-            width: 100%;
-            max-width: 180px;
-            height: auto;
-        }
-
-        .three-column .text {
-            padding-top: 10px;
-        }
-    </style>
-
-    <!--[if (gte mso 9)|(IE)]>
-        <style type="text/css">
-            table {border-collapse: collapse;}
-        </style>
-    <![endif]-->
-
+    <meta name="author" content="E. Wilson">
+    <meta name="description" content="Responsive Newsletter Email Template">
+    
     <!--[if mso]>
         <style type="text/css">
-        body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
+            body, table, td {font-family: Arial, Helvetica, sans-serif !important;}
+            table {border-collapse:collapse;}
         </style>
-        <![endif]-->
-        <!--[if gte mso 9]>
         <xml>
             <o:OfficeDocumentSettings>
             <o:AllowPNG/>
@@ -180,27 +21,29 @@
             </o:OfficeDocumentSettings>
         </xml>
     <![endif]-->
+    
+    
 </head>
 <body style="padding: 0;background-color: #ffffff;margin: 0 !important;">
-    <center class="wrapper" style="width: 100%;table-layout: fixed;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">
-        <div class="webkit" style="max-width: 600px;margin: 0 auto;">
-            <!--[if (gte mso 9)|(IE)]>
+    <center style="width: 100%;table-layout: fixed;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%;">
+        <div style="max-width: 600px; margin: 0 auto;">
+            <!--[if (mso)]>
             <table width="600" align="center" border="0" cellspacing="0" cellpadding="0" style="border-collapse: collapse">
             <tr>
             <td>
             <![endif]-->
 
-            <table class="outer" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;margin: 0 auto;width: 100%;max-width: 600px;">
+            <table role="presentation" align="center" border="0" cellspacing="0" cellpadding="0" style="border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;margin: 0 auto;width: 100%;max-width: 600px;">
                 <tr>
-                    <td class="full-width-image" style="padding: 0;">
+                    <td style="padding: 0;">
                         <img src="https://via.placeholder.com/600X200/e7e7e7/ffffff/?text=Header+image" width="600" alt="placeholder image" style="border: 0;width: 100%;max-width: 600px;height: auto;">
                     </td>
                 </tr>
                 <tr>
-                    <td class="one-column" style="padding: 0;">
+                    <td style="padding: 0;">
                         <table width="100%" style="border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;">
                             <tr>
-                                <td class="inner contents" style="padding: 10px;width: 100%;text-align: left;">
+                                <td style="padding: 10px;width: 100%;text-align: left;">
                                     <h1 style="font-size: 21px;font-weight: bold;margin-bottom: 18px;">Introduce the newsletter by adding a headline</h1>
                                     <p style="margin: 0;font-size: 14px;margin-bottom: 10px;">This is a responsive email template designed for keeping an audience informed on what is happening for the following week. The two-column format was designed
                                         to allow for more content above-the-fold. Important content, such as deadlines and important announcements, should go on the left. Include any CTAs as button links
@@ -211,55 +54,55 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="two-column" style="padding: 0;text-align: center;font-size: 0;">
-                        <!--[if (gte mso 9)|(IE)]>
+                    <td style="padding: 0;text-align: center;font-size: 0;">
+                        <!--[if (mso)]>
                         <table width="100%">
                         <tr>
                         <td width="50%" valign="top">
                         <![endif]-->
-                        <div class="column" style="width: 100%;max-width: 300px;display: inline-block;vertical-align: top;">
-                            <table width="100%" style="border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;">
+                        <div style="width: 100%;max-width: 300px;display: inline-block;vertical-align: top;">
+                            <table role="presentation" style="width: 100%;border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;">
                                 <tr>
-                                    <td class="inner" style="padding: 10px;">
-                                        <table class="contents" style="border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;width: 100%;font-size: 14px;text-align: left;">
+                                    <td style="padding: 10px;">
+                                        <table role="presentation" style="border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;width: 100%;font-size: 14px;text-align: left;">
                                             <tr>
                                                 <td style="padding: 0;">
                                                     <img src="https://via.placeholder.com/280x50/e7e7e7/ffffff/?text=heading+image" width="280" alt="heading placeholder image" style="border: 0;width: 100%;max-width: 280px;height: auto;">
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="text" style="padding: 0;padding-top: 10px;">
+                                                <td style="padding: 0;padding-top: 10px;">
                                                     <p style="margin: 0;margin-bottom: 10px;"><strong>1st column callout lead text</strong> posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                                                         Suspendisse id imperdiet justo. Vestibulum ut nunc ipsum. Duis in dignissim est.
                                                     </p> 
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="button" style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
+                                                <td style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
                                                     <a href="#" target="_blank" style="color: #cccccc;text-decoration: none;font-weight: bold;">Learn more</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="text" style="padding: 0;padding-top: 10px;">
+                                                <td style="padding: 0;padding-top: 10px;">
                                                     <p style="margin: 0;margin-bottom: 10px;"><strong>1st column callout lead text</strong> posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                                                         Suspendisse id imperdiet justo. Vestibulum ut nunc ipsum. Duis in dignissim est.
                                                     </p> 
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="button" style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
+                                                <td style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
                                                     <a href="#" target="_blank" style="color: #cccccc;text-decoration: none;font-weight: bold;">Learn more</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="text" style="padding: 0;padding-top: 10px;">
+                                                <td style="padding: 0;padding-top: 10px;">
                                                     <p style="margin: 0;margin-bottom: 10px;"><strong>1st column callout lead text</strong> posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                                                         Suspendisse id imperdiet justo. Vestibulum ut nunc ipsum. Duis in dignissim est.
                                                     </p> 
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="button" style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
+                                                <td style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
                                                     <a href="#" target="_blank" style="color: #cccccc;text-decoration: none;font-weight: bold;">Learn more</a>
                                                 </td>
                                             </tr>
@@ -269,26 +112,26 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="text" style="padding: 0;padding-top: 10px;">
+                                                <td style="padding: 0;padding-top: 10px;">
                                                     <p style="margin: 0;margin-bottom: 10px;"><strong>Special Event Name <br>February 1, 2018 from 6:00-8:00 PM CST</strong> <br>Posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                                                         Suspendisse id imperdiet justo. Vestibulum ut nunc ipsum. <br><strong>Address, City, State.</strong>
                                                     </p> 
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="button" style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
+                                                <td style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
                                                     <a href="#" target="_blank" style="color: #cccccc;text-decoration: none;font-weight: bold;">RSVP today!</a>
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="text" style="padding: 0;padding-top: 10px;">
+                                                <td style="padding: 0;padding-top: 10px;">
                                                     <p style="margin: 0;margin-bottom: 10px;"><strong>Special Event Name <br>February 1, 2018 from 6:00-8:00 PM CST</strong> <br>Posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                                                         Suspendisse id imperdiet justo. Vestibulum ut nunc ipsum. <br><strong>Address, City, State.</strong>
                                                     </p> 
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="button" style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
+                                                <td style="padding: 0;height: 30px;background-color: #e7e7e7;text-align: center;">
                                                     <a href="#" target="_blank" style="color: #cccccc;text-decoration: none;font-weight: bold;">RSVP today!</a>
                                                 </td>
                                             </tr>
@@ -297,21 +140,21 @@
                                 </tr>
                             </table>
                         </div>
-                        <!--[if (gte mso 9)|(IE)]>
+                        <!--[if (mso)]>
                         </td><td width="50%" valign="top">
                         <![endif]-->
-                        <div class="column" style="width: 100%;max-width: 300px;display: inline-block;vertical-align: top;">
-                            <table width="100%" style="border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;">
+                        <div style="width: 100%; max-width: 300px;display: inline-block;vertical-align: top;">
+                            <table role="presentation" style="width: 100%;border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;">
                                 <tr>
-                                    <td class="inner" style="padding: 10px;">
-                                        <table class="contents" style="border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;width: 100%;font-size: 14px;text-align: left;">
+                                    <td style="padding: 10px;">
+                                        <table role="presentation" style="border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;width: 100%;font-size: 14px;text-align: left;">
                                             <tr>
                                                 <td style="padding: 0;">
                                                     <img src="https://via.placeholder.com/280x50/e7e7e7/ffffff/?text=heading+image" width="280" alt="heading placeholder image" style="border: 0;width: 100%;max-width: 280px;height: auto;">
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="text" style="padding: 0;padding-top: 10px;">
+                                                <td style="padding: 0;padding-top: 10px;">
                                                     <p style="margin: 0;margin-bottom: 10px;"><strong>2nd column callout lead text</strong> posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                                                         Suspendisse id imperdiet justo. Vestibulum ut nunc ipsum. Duis in dignissim est.
                                                     </p> 
@@ -323,14 +166,14 @@
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="text" style="padding: 0;padding-top: 10px;">
+                                                <td style="padding: 0;padding-top: 10px;">
                                                     <p style="margin: 0;margin-bottom: 10px;"><strong>2nd column callout lead text</strong> posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                                                         Suspendisse id imperdiet justo. Vestibulum ut nunc ipsum. Duis in dignissim est. Aenean sed sapien eu nunc congue suscipit. 
                                                     </p> 
                                                 </td>
                                             </tr>
                                             <tr>
-                                                <td class="text" style="padding: 0;padding-top: 10px;">
+                                                <td style="padding: 0;padding-top: 10px;">
                                                     <p style="margin: 0;margin-bottom: 10px;"><strong>2nd column callout lead text</strong> posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                                                         Suspendisse id imperdiet justo. Vestibulum ut nunc ipsum. Duis in dignissim est. Aenean sed sapien eu nunc congue suscipit. Aenean sed sapien eu nunc congue suscipit. Phasellus fringilla euismod velit, et tempor neque placerat a. Praesent id scelerisque diam.
                                                     </p> 
@@ -346,7 +189,7 @@
                                 </tr>
                             </table>
                         </div>
-                        <!--[if (gte mso 9)|(IE)]>
+                        <!--[if (mso)]>
                         </td>
                         </tr>
                         </table>
@@ -354,10 +197,10 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="one-column" style="padding: 0;">
-                        <table width="100%" style="border-top: 1px solid #000000;margin-top: 20px;border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;">
+                    <td style="padding: 0;">
+                        <table role="presentation" style="width: 100%;border-top: 1px solid #000000;margin-top: 20px;border-spacing: 0;font-family: Arial, Helvetica, sans-serif;color: #333333;">
                             <tr>
-                                <td class="inner contents" style="text-align: center;padding: 10px;width: 100%;">
+                                <td style="text-align: center;padding: 10px;width: 100%;">
                                     <h1 style="font-size: 21px;font-weight: bold;margin-bottom: 18px;">This is the footer</h1>
                                     <p style="margin: 0;font-size: 14px;margin-bottom: 10px;">Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
                                         Praesent laoreet malesuada cursus. Maecenas scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat. 
@@ -373,7 +216,7 @@
                 
             </table>
 
-            <!--[if (gte mso 9)|(IE)]>
+            <!--[if (mso)]>
             </td>
             </tr>
             </table>
