@@ -25,5 +25,6 @@ All templates use placeholder images and image links. Please make sure that your
 
 ## Clones
 A project folder with HTML email templates I built inspired by existing email designs.
+1. **#14Days_of_Quarantine**: For the 14 days I spend social distancing, I will choose an email I receive that I like and code a HTML-based template clone of it. Project started March 17, 2020.
 
 ###### Created by E. Wilson for creative use only. For more information on how you can get customized emails for your next campaign, message me.
