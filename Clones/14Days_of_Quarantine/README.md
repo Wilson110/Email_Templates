@@ -10,7 +10,7 @@ This project was created by me during a period of national quarantine in the USA
 
 3. **Day Three - The Well**: A clone based on "Thrive", an email newsletter of curated topics for Black women in business that I received from The Well on March 4, 2020. For this HTML template, I imported the Foundation for Emails framework by Zurb, so the CSS code structure will look different. Please also note that the framework's CSS classes were implemented. Learn more about The Well community [here](https://www.the-well-space.com) and subscribe to "Thrive" to see the design that inspired this clone. [Click here to see the live preview of this email template >](https://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/Clones/14Days_of_Quarantine/thewell_clone.html)
 
-4. **Day Four - MM**: A clone based on the Mindful Minute daily email I received on March 24, 2020. Go to Mindful magazine and sign up for their daily reflection emails [here](https://mindful.org). [Click here to see the live preview of this template >](https://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/Clones/14Days_of_Quarantine/mm_clone.html)
+4. **Day Four - MM**: A clone based on the Mindful Minute daily email I received on March 24, 2020. Go to Mindful magazine [here](https://mindful.org) to signup for their daily reflection emails. [Click here to see the live preview of this template >](https://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/Clones/14Days_of_Quarantine/mm_clone.html)
 
 ## Dev Notes
 1. For creative, non-commercial use. 
