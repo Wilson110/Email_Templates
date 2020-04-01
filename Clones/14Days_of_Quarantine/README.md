@@ -12,7 +12,7 @@ This project was created by me during a period of national quarantine in the USA
 
 4. **Day Four - MM**: A clone based on the Mindful Minute daily email I received on March 24, 2020. Go to Mindful magazine [here](https://mindful.org) to signup for their daily reflection emails. [Click here to see the live preview of this template >](https://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/Clones/14Days_of_Quarantine/mm_clone.html)
 
-5. **Day Five - Futr**: A responsive email clone based on the "8 Things You Can Do To Lower Your Expenses and Survive a Financial Crisis" promotional email from The Futr on March 31, 2020. Go to their website [here](https://thefutr.com) to learn more about The Futr and subscribe to their emails. [Click here to see the live preview of this template >](https://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/Clones/14Days_of_Quarantine/futr_clone.html)
+5. **Day Five - Futr**: A responsive email clone based on the "8 Things You Can Do To Lower Your Expenses and Survive a Financial Crisis" promotional email from TheFutur.com on March 31, 2020. Go to their website [here](https://thefutur.com) to learn more about The Futr and subscribe to their emails. [Click here to see the live preview of this template >](https://htmlpreview.github.io/?https://github.com/Wilson110/Email_Templates/blob/master/Clones/14Days_of_Quarantine/futr_clone.html)
 
 ## Dev Notes
 1. For creative, non-commercial use. 
